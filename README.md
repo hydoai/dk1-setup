@@ -121,10 +121,19 @@ You are ready to move to Part 2 of this guide.
 + [**for Xavier NX**](http://storage.hydo.ai/nx-img-latest.img)(SIZE WARNING 109GB)
 + [**for Nano**](http://storage.hydo.ai/nano-img-latest.img)(SIZE WARNING 30GB)
 
-**Connect NVMe drive to computer, format it to ext4**
+**Connect NVMe drive to computer.**
+
+**Delete all partitions**
+
+**Create one ext4 partition of size 30GB** 
+
+Match partition size to disk image size.
 
 **Recover partition with downloaded disk image**
 
+**Install NVMe drive onto Jetson carrier board**
+
+**Resize partition to fill disk (or however large you want it)
 
 
 ### Install everything from the command line
