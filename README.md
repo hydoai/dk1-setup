@@ -13,7 +13,7 @@ This guide contains two parts.
 + [NVIDIA Jetson Nano 4GB module](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/)
 + or, [NVIDIA Jetson Xavier NX module](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/)
 + [Leetop A203 carrier board](http://www.leetop.top/leetopen.asp?id=256)
-+ [128GB 2242 NVMe SSD (link is example only)](https://www.transcend-info.com/Embedded/Products/No-1164) Any capacity at or above 32GB is fine.
++ [128GB 2242 NVMe SSD (link is example only)](https://www.transcend-info.com/Embedded/Products/No-1164) Any capacity at or above 32GB is acceptable..
 
 **and for the below software versions:**
 
