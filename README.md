@@ -116,7 +116,7 @@ You are ready to move to Part 2 of this guide.
 
 **Download Disk Image**:
 
-+ [**for Xavier NX**](http://storage.hydo.ai/nx-img-latest.img)(SIZE WARNING 109GB)
++ [**for Xavier NX**](https://storage.hydo.ai/nx-img-latest.img)(SIZE WARNING 109GB)
 + [**for Nano**](https://storage.hydo.ai/nano-img-latest.img)(SIZE WARNING 30GB)
 
 **Connect NVMe drive to computer.**
