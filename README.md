@@ -45,7 +45,7 @@ On your notebook or desktop, **clone this repository**:
 git clone https://github.com/hydoai/dk1-setup.git
 ```
 
-**Navigate to 'flashing\_scripts/nx'**:
+**Navigate to `flashing\_scripts/nx`**:
 ```
 cd flashing_scripts/nx
 ```
