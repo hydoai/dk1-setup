@@ -94,9 +94,9 @@ On your Jetson, **clone this repository**:
 git clone https://github.com/hydoai/dk1-setup.git
 ```
 
-Navigate to `nvme_boot_scripts/nx`:
+Navigate to `nvme_boot_script`:
 ```bash
-cd nvme_boot_scripts/nx
+cd nvme_boot_script
 ```
 
 **Run ./2-nvme-boot.sh**:
