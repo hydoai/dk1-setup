@@ -2,8 +2,10 @@ WORK IN PROGRESS
 
 TODO
 
-- [] Get nano jetpack 4.6 dtb files
-- [] Create 30GB version of xavier disk image
+- [ ] Get nano jetpack 4.6 dtb files
+- [ ] Create 30GB version of xavier disk image
+
+---
 
 # Ground-up Setup Instructions for HYDO Devkit-One
 
