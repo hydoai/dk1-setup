@@ -21,8 +21,6 @@ This guide contains two parts.
 
 ## Part 1: OS & Boot Drive
 
-#TODO Create and distribute a pre-made L4T driver package kernel with the leetop A203 patch pre-copied.
-
 ### Jetson Nano-based
 
 <details><summary>Click to explanation for the script.</summary>
