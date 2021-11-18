@@ -114,6 +114,19 @@ You are ready to move to Part 2 of this guide.
 
 *This is the recommended way to get your Devkit-One up and running. If you want fine-grained control over how and which packages are installed, please see the next section.*
 
+([See setup guide for storage server](https://github.com/hydoai/fs1-setup))
+
+**Download Disk Image**:
+
++ [**for Xavier NX**](http://storage.hydo.ai/nx-img-latest.img)(SIZE WARNING 109GB)
++ [**for Nano**](http://storage.hydo.ai/nano-img-latest.img)(SIZE WARNING 30GB)
+
+**Connect NVMe drive to computer, format it to ext4**
+
+**Recover partition with downloaded disk image**
+
+
+
 ### Install everything from the command line
 
 *This way is NOT recommended. This entire process may take up to 10 hours*
