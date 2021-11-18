@@ -28,8 +28,8 @@ This guide contains two parts.
 
 #### Download L4T Driver Package and Sample Root Filesystem from NVIDIA
 
-+ [Link to download L4T Driver Package for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/jetson-210_linux_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](http://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Jetson-210_Linux_R32.6.1_aarch64.tbz2))
-+ [Link to download Sample Root Filesystem for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](http://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Tegra_Linux_Sample-Root-Filesystem_R32.6.1_aarch64.tbz2))
++ [Link to download L4T Driver Package for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/jetson-210_linux_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Jetson-210_Linux_R32.6.1_aarch64.tbz2))
++ [Link to download Sample Root Filesystem for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Tegra_Linux_Sample-Root-Filesystem_R32.6.1_aarch64.tbz2))
 
 Using Leetop A203 carrier board requires adding a kernel dtb (device tree binary) file to the L4T driver.
 
@@ -117,7 +117,7 @@ You are ready to move to Part 2 of this guide.
 **Download Disk Image**:
 
 + [**for Xavier NX**](http://storage.hydo.ai/nx-img-latest.img)(SIZE WARNING 109GB)
-+ [**for Nano**](http://storage.hydo.ai/nano-img-latest.img)(SIZE WARNING 30GB)
++ [**for Nano**](https://storage.hydo.ai/nano-img-latest.img)(SIZE WARNING 30GB)
 
 **Connect NVMe drive to computer.**
 
