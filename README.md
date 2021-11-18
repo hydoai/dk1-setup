@@ -29,7 +29,7 @@ This guide contains two parts.
 #### Download L4T Driver Package and Sample Root Filesystem from NVIDIA
 
 + [Link to download L4T Driver Package for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/jetson-210_linux_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](http://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Jetson-210_Linux_R32.6.1_aarch64.tbz2))
-+ [Link to download Sample Root Filesystem for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2)
++ [Link to download Sample Root Filesystem for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](http://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Tegra_Linux_Sample-Root-Filesystem_R32.6.1_aarch64.tbz2))
 
 Using Leetop A203 carrier board requires adding a kernel dtb (device tree binary) file to the L4T driver.
 
@@ -58,8 +58,8 @@ cd flashing_scripts/nx
 <details><summary>Click to explanation for the script.</summary>
 <p>
 
-+ [Download L4T Driver Package for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/jetson_linux_r32.6.1_aarch64.tbz2)
-+ [Download Sample Root Filesystem for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2)
++ [Download L4T Driver Package for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/jetson_linux_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](http://storage.hydo.ai/nvidia-mirror/jetpack4-6/nx/Jetson_Linux_R32.6.1_aarch64.tbz2))
++ [Download Sample Root Filesystem for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](http://storage.hydo.ai/nvidia-mirror/jetpack4-6/nx/Tegra_Linux_Sample-Root-Filesystem_R32.6.1_aarch64.tbz2))
 
 Decompress L4T Driver Package:
 
