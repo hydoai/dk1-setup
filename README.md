@@ -52,7 +52,7 @@ git clone https://github.com/hydoai/dk1-setup.git
 cd flashing_scripts/nx
 ```
 
-**Run [1-host.sh](flashing_scripts/nx/1-host.sh)**:
+**Run [1-host.sh](flashing_scripts/nx/1-host.sh) and follow directions**:
 ```
 ./1-host.sh
 ```
@@ -89,13 +89,30 @@ Copy this to the same corresponding directory in the full `Linux for Tegra` dire
 </p>
 </details>
 
+On your Jetson, **clone this repository**:
+```bash
+git clone https://github.com/hydoai/dk1-setup.git
+```
+
+Navigate to `nvme_boot_scripts/nx`:
+```bash
+cd nvme_boot_scripts/nx
+```
+
+**Run ./2-nvme-boot.sh**:
+```bash
+./2-nvme-boot.sh
+```
+
+Now, your Jetson boot disk will be set to the NVMe SSD.
+
+You are ready to move to Part 2 of this guide.
+
 ## Part 2:
 
 ### Use pre-crafted disk image
 
-*This is the recommended way to get your Devkit-One up and running.
-
-If you want fine-grained control over how and which packages are installed, please see the next section.*
+*This is the recommended way to get your Devkit-One up and running. If you want fine-grained control over how and which packages are installed, please see the next section.*
 
 ### Install everything from the command line
 
