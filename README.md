@@ -2,7 +2,7 @@ WORK IN PROGRESS
 
 TODO
 
-- [ ] Get nano jetpack 4.6 dtb files
+- [x] Get nano jetpack 4.6 dtb files
 - [ ] Create 30GB version of xavier disk image
 - [ ] Insert screenshots for Part 2 
 ---
