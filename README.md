@@ -160,4 +160,6 @@ Match partition size to disk image size.
 
 *This way is NOT recommended. This entire process may take up to 10 hours*
 
+Basically, run every script in [package_scripts](../package_scripts)
+
 
