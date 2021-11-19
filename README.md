@@ -47,18 +47,29 @@ cd flashing_scripts/nano
 ./1-host.sh
 ```
 
-<details><summary>Click to explanation for the script.</summary>
+<details><summary>Click to see explanations for the script.</summary>
 <p>
 
 #### Download L4T Driver Package and Sample Root Filesystem from NVIDIA
 
+I have copied most large files to [storage.hydo.ai](https://storage.hydo.ai) as a mirror for faster downloads.
+
 + [Link to download L4T Driver Package for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/jetson-210_linux_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Jetson-210_Linux_R32.6.1_aarch64.tbz2))
 + [Link to download Sample Root Filesystem for Nano](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t210/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nano/Tegra_Linux_Sample-Root-Filesystem_R32.6.1_aarch64.tbz2))
 
-Using Leetop A203 carrier board requires adding a kernel dtb (device tree binary) file to the L4T driver.
 
-#TODO! get this file from leetop
-+ [A203 nano kernel]()
+Decompressing the L4T Driver Package will output a directory named `Linux_for_Tegra`. 
+
+Inside this, we will add a new kernel dtb file from Leetop for the A203 carrier board.
+
++ [A203 Nano Jetpack4.6 dtb](leetop_kernel_files/jetpack_4.6_nano203.rar)
+
+Decompress the `.rar` file while preserving directory:
+
+This will extract one `.dtb` file insde `nx/Linux_for_Tegra/kernel/dtb` directory.
+
+Copy this to the same corresponding directory in the full `Linux for Tegra` directory extracted above, and compress it back with tar.
+
 
 </p></details>
 
@@ -82,31 +93,15 @@ cd flashing_scripts/nx
 <details><summary>Click to explanation for the script.</summary>
 <p>
 
+See expalanation in Nano section for more detail.
+
+Here are just the different files:
+
 + [Download L4T Driver Package for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/jetson_linux_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nx/Jetson_Linux_R32.6.1_aarch64.tbz2))
 + [Download Sample Root Filesystem for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nx/Tegra_Linux_Sample-Root-Filesystem_R32.6.1_aarch64.tbz2))
 
-Decompress L4T Driver Package:
 
-```bash
-tar -xvf Jetson_Linux_R32.6.1_aarch64.tbz2
-```
-
-This will output a directory named `Linux_for_Tegra`. 
-
-Inside this, we will add a new kernel dtb file from Leetop for the A203 carrier board.
-
-+ [Download A203 Jetpack4.6 dtb](leetop_kernel_files/jetpack4.6_203nx.rar)
-
-Decompress the downloaded `.rar` file:
-
-```bash
-sudo apt install unrar
-unrar x jetpack4.6_203nx.rar
-```
-
-This will extract one `.dtb` file insde `nx/Linux_for_Tegra/kernel/dtb` directory.
-
-Copy this to the same corresponding directory in the full `Linux for Tegra` directory extracted above, and compress it back with tar.
++ [A203 Xavier NX Jetpack4.6 dtb](leetop_kernel_files/jetpack4.6_203nx.rar)
 
 </p>
 </details>
