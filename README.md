@@ -70,6 +70,7 @@ This will extract one `.dtb` file insde `nx/Linux_for_Tegra/kernel/dtb` director
 
 Copy this to the same corresponding directory in the full `Linux for Tegra` directory extracted above, and compress it back with tar.
 
+Go straight to (#nvme-drive-boot)
 
 </p></details>
 
@@ -105,6 +106,8 @@ Here are just the different files:
 
 </p>
 </details>
+
+### NVME Drive Boot
 
 On your Jetson, **clone this repository**:
 ```bash
