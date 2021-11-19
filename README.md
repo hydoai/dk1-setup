@@ -32,6 +32,21 @@ This guide contains two parts.
 
 ### Jetson Nano-based
 
+On your notebook or desktop, **clone this repository**:
+```
+git clone https://github.com/hydoai/dk1-setup.git
+```
+
+**Navigate to `flashing\_scripts/nano`**:
+```
+cd flashing_scripts/nano
+```
+
+**Run [1-host.sh](flashing_scripts/nano/1-host.sh) and follow directions**:
+```
+./1-host.sh
+```
+
 <details><summary>Click to explanation for the script.</summary>
 <p>
 
