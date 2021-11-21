@@ -168,7 +168,7 @@ Match partition size to disk image size.
 
 ### Install everything from the command line
 
-*This way is NOT recommended. This entire process may take up to 10 hours*
+*This way is NOT recommended. This entire process may take up to 10 hours, because most packages need to recompiled from source.*
 
 Basically, run every script in [package_scripts](../package_scripts)
 
