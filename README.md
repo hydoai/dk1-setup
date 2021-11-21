@@ -42,9 +42,14 @@ git clone https://github.com/hydoai/dk1-setup.git
 cd flashing_scripts/nano
 ```
 
-**Run [1-host.sh](flashing_scripts/nano/1-host.sh) and follow directions**:
+**If you are using Leetop A203 carrier board, run:**
 ```
-./1-host.sh
+./1-a203-host.sh
+```
+
+**Otherwise if you are using the NVIDIA official devkit board, run:**
+```
+./1-official-devkit-host.sh
 ```
 
 <details><summary>Click to see explanations for the script.</summary>
@@ -86,9 +91,14 @@ git clone https://github.com/hydoai/dk1-setup.git
 cd flashing_scripts/nx
 ```
 
-**Run [1-host.sh](flashing_scripts/nx/1-host.sh) and follow directions**:
+**If you are using Leetop A203 carrier board, run:**
 ```
-./1-host.sh
+./1-a203-host.sh
+```
+
+**Otherwise if you are using the NVIDIA official devkit board, run:**
+```
+./1-official-devkit-host.sh
 ```
 
 <details><summary>Click to explanation for the script.</summary>
