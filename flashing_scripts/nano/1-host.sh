@@ -5,6 +5,7 @@
 # Jetson Module: Xavier NX 8GB RAM, 16GB eMMC
 
 # fix failed flashing t186ref issue
+sudo apt install python-is-python3
 export LANG=en_US.UTF-8
 source ~/.bashrc
 
