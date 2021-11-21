@@ -13,7 +13,7 @@ This guide contains two parts.
 
 **Part 1**: Installing the operating system and changing boot drive. The process for Jetson Nano and Jetson Xavier NX are fundamentally similar, but in Part 1, the files are different.
 
-**Part 2**: Installing packages. This part is identical for both Nano and Xavier NX. We provide a pre-made disk image for both Nano and Xavier NX, but this guide will also cover the full command line installation too.
+**Part 2**: Installing packages. This part is identical for both Nano and Xavier NX. We provide a pre-made disk image for both Nano and Xavier NX, but this guide will also cover the full command line installation.
 
 ## Before you begin
 
