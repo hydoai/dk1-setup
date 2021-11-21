@@ -17,14 +17,16 @@ This guide contains two parts.
 
 ## Before you begin
 
-**This guide is intended for the below hardware configuration:**
+### Things you need
 
++ Normal desktop or laptop with Ubuntu 20.04 or similar (Pop_OS! 20.04) (other releases not tested, but most recent versions probably works)
++ USB-A to micro USB cable
 + [NVIDIA Jetson Nano 4GB module](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/)
 + or, [NVIDIA Jetson Xavier NX module](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/)
 + [Leetop A203 carrier board](http://www.leetop.top/leetopen.asp?id=256)
 + [128GB 2242 NVMe SSD (link is example only)](https://www.transcend-info.com/Embedded/Products/No-1164) Any capacity at or above 32GB is acceptable..
 
-**and for the below software versions:**
+**This guide is intended for the below software versions:**
 
 + [NVIDIA JetPack 4.6](https://developer.nvidia.com/jetpack-sdk-46), which includes [(L4T 32.6.1)](https://developer.nvidia.com/embedded/linux-tegra-r3261)
 
