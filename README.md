@@ -44,14 +44,12 @@ git clone https://github.com/hydoai/dk1-setup.git
 cd flashing_scripts/nano
 ```
 
-**If you are using Leetop A203 carrier board, run:**
-```
-./1-a203-host.sh
-```
+**Depending on your setup, run the right script:**
 
-**Otherwise if you are using the NVIDIA official devkit board, run:**
-```
-./1-official-devkit-host.sh
+Setup type | Script name
+Leetop A203 carrier board + Jetson Nano eMMC (internal storage) | `./1-a203-host.sh`
+Official devkit carrier board + Jetson Nano eMMC (internal storage) | `./1-emmc-devkit-host.sh`
+Official devkit carrier board + Jetson Nano external microSD card | `./1-sdcard-devkit-host.sh`
 ```
 
 <details><summary>Click to see explanations for the script.</summary>
