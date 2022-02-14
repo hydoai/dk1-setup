@@ -144,7 +144,7 @@ You are ready to move to Part 2 of this guide.
 
 *This is the recommended way to get your Devkit-One up and running. If you want fine-grained control over how and which packages are installed, please see the next section.*
 
-([See setup guide for storage server](https://github.com/hydoai/fs1-setup))
+([See setup guide for storage server (internal link)](https://github.com/hydoai/fs1-setup))
 
 **Download Disk Image**:
 
