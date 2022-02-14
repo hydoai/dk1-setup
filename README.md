@@ -112,6 +112,20 @@ Configuration file '/etc/lightdm/lightdm.conf.d/50-nvidia.conf'
 ```
 Answer 'y'
 
+### Troubleshooting `Failed flashing t186ref`
+
+If the last log message contains:
+```
+/usr/bin/env: 'python': No such file or directory
+```
+then try:
+```
+apt install python3
+```
+and/or create a symlink like:
+```
+sudo ln -s /usr/bin/python3 /usr/bin/python
+```
 
 ### NVME Drive Boot
 
