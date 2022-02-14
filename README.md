@@ -29,7 +29,7 @@ This guide contains two parts.
 
 **This guide is intended for the below software versions:**
 
-+ [NVIDIA JetPack 4.6](https://developer.nvidia.com/jetpack-sdk-46), which includes [(L4T 32.6.1)](https://developer.nvidia.com/embedded/linux-tegra-r3261)
++ [NVIDIA JetPack 4.6](https://developer.nvidia.com/jetpack-sdk-46), which includes [L4T (Linux for Tegra) 32.6.1](https://developer.nvidia.com/embedded/linux-tegra-r3261)
 
 ## Part 1: OS & Boot Drive
 
