@@ -127,6 +127,12 @@ and/or create a symlink like:
 sudo ln -s /usr/bin/python3 /usr/bin/python
 ```
 
+### Ubuntu Setup
+
+Follow the installation wizard. Make sure to:
++ select the correct timezone (city)
++ Choose 'automatic log in'
+
 ### NVME Drive Boot
 
 On your Jetson, **clone this repository**:
