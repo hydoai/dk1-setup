@@ -1,5 +1,7 @@
 # Ground-up Setup Instructions for HYDO Devkit-One
 
+![](readme-assets/brains-velovision.jpg)
+
 This guide contains two parts. 
 
 **Part 1**: Installing the operating system and changing boot drive. The process for Jetson Nano and Jetson Xavier NX are the same except for the files.
