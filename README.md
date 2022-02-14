@@ -2,7 +2,9 @@
 
 ![](readme-assets/brains-velovision.jpg)
 
-This guide contains two parts. 
+A step-by-step guide to setting up a standard NVIDIA Jetson module for use in HYDO Devkit-One (DK1). This guide goes far beyond the basic Jetson deployment procedures:
++ DK1 uses Leetop A203 carrier board, which requires a device tree binary (DTB) patch. The scripts here automate that process.
++ Installing all of the dependencies for [velovision](https://github.com/hydoai/velovision) takes more than 10 hours. With my custom pre-made disk image, that only takes 5 minutes.
 
 **Part 1**: Installing the operating system and changing boot drive. The process for Jetson Nano and Jetson Xavier NX are the same except for the files.
 
