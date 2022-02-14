@@ -1,9 +1,3 @@
-TODO
-
-- [ ] Upload screenshots
-- [ ] Nano image
----
-
 # Ground-up Setup Instructions for HYDO Devkit-One
 
 This guide contains two parts. 
@@ -214,4 +208,9 @@ Remove the NVME drive from the Jetson carrier board, and plug it into your PC (u
 
 Basically, run every script in [package_scripts](package_scripts)
 
+---
+
+TODO
+- [ ] Create Nano image
+- [ ] Share NX image
 
