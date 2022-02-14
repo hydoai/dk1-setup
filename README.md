@@ -160,6 +160,8 @@ You are ready to move to Part 2 of this guide.
 
 ### Use pre-crafted disk image
 
+Remove the NVME drive from the Jetson carrier board, and plug it into your PC (using external NVME dock, for example).
+
 *This is the recommended way to get your Devkit-One up and running. If you want fine-grained control over how and which packages are installed, please see the next section.*
 
 ([See setup guide for storage server (internal link)](https://github.com/hydoai/fs1-setup))
@@ -169,13 +171,9 @@ You are ready to move to Part 2 of this guide.
 + [**for Xavier NX**](https://storage.hydo.ai/nx-latest.img) (30 GB)
 + [**for Nano**](https://storage.hydo.ai/nano-latest.img) (30GB)
 
-**Connect NVMe drive to computer.**
+**Delete all partitions of NVME drive**
 
-**Delete all partitions**
-
-**Create one ext4 partition of size 30GB** 
-
-Match partition size to disk image size.
+**Create one ext4 partition of size 30GB**  (Match partition size to disk image size.)
 
 **Recover partition with downloaded disk image**
 
