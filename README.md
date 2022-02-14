@@ -135,6 +135,8 @@ Follow the installation wizard. Make sure to:
 
 ### NVME Drive Boot
 
+Install a clean NVME drive onto the carrier board. The NVME drive should be formatted with MBR/DOS partitioning with no partitions (all unallocated space)
+
 On your Jetson, **clone this repository**:
 ```bash
 git clone https://github.com/hydoai/dk1-setup.git
