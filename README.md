@@ -96,6 +96,23 @@ Most of the steps are the same with Nano, but with these different files:
 
 </p></details>
 
+You might come across this message:
+
+```
+Configuration file '/etc/lightdm/lightdm.conf.d/50-nvidia.conf'
+ ==> File on system created by you or by a script.
+ ==> File also in package provided by package maintainer.
+   What would you like to do about it ?  Your options are:
+    Y or I  : install the package maintainer's version
+    N or O  : keep your currently-installed version
+      D     : show the differences between the versions
+      Z     : start a shell to examine the situation
+ The default action is to keep your current version.
+*** 50-nvidia.conf (Y/I/N/O/D/Z) [default=N] ? y
+```
+Answer 'y'
+
+
 ### NVME Drive Boot
 
 On your Jetson, **clone this repository**:
