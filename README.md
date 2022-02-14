@@ -29,6 +29,16 @@ This guide contains two parts.
 
 ## Part 1: OS & Boot Drive
 
+At this point, you should have the Jetson module installed onto the carrier board, and cables connected like so:
+
+![](readme-assets/cables-connected.jpg)
+
++ DC power (yellow)
++ microUSB (to computer USB)
++ HDMI (to monitor)
++ Keyboard/mouse (blue)
++ Ethernet (internet connection)
+
 ### Jetson Nano-based
 
 On your notebook or desktop, **clone this repository**:
@@ -50,6 +60,13 @@ Xavier NX eMMC | Developer kit | `nx/1-official-devkit-host.sh`
 Nano eMMC | Leetop A203 | `nano/1-a203-host.sh`
 Nano eMMC | Developer kit | `nano/1-emmc-devkit-host.sh`
 Nano microSD | Developer kit | `nano/1-sdcard-devkit-host.sh`
+
+The script will tell you to short the RECO pin. On the Leetop A203, it is the second row of pins (pins at orange and yellow connectors in this picture)
+
+Then, you need to short the first row to reset the board and get it into RECO mode, like so:
+
+![](readme-assets/short-pins.png)
+
 
 <details><summary>Click to see explanations for the script.</summary>
 <p>
@@ -125,11 +142,15 @@ sudo ln -s /usr/bin/python3 /usr/bin/python
 
 ### Ubuntu Setup
 
+![](readme-assets/ubuntu-setup.jpg)
+
 Follow the installation wizard. Make sure to:
 + select the correct timezone (city)
 + Choose 'automatic log in'
 
 ### NVME Drive Boot
+
+![](readme-assets/nvme-installed.jpg)
 
 Install a clean NVME drive onto the carrier board. The NVME drive should be formatted with MBR/DOS partitioning with no partitions (all unallocated space)
 
@@ -164,19 +185,28 @@ Remove the NVME drive from the Jetson carrier board, and plug it into your PC (u
 
 **Download Disk Image**:
 
-+ [**for Xavier NX**](https://storage.hydo.ai/nx-latest.img) (30 GB)
-+ [**for Nano**](https://storage.hydo.ai/nano-latest.img) (30GB)
++ [**for Xavier NX**](https://storage.hydo.ai/nx-latest.img) (30 GB) (link not valid- will be updated)
++ [**for Nano**](https://storage.hydo.ai/nano-latest.img) (30GB) (link not valid- will be updated)
 
 **Delete all partitions of NVME drive**
 
-**Create one ext4 partition of size 30GB**  (Match partition size to disk image size.)
+![](readme-assets/delete-partitions.png)
+
+**Create one ext4 partition of size 20GB**  (Match partition size to disk image size.)
+
+![](readme-assets/new-partition.png)
 
 **Recover partition with downloaded disk image**
 
-**Install NVMe drive onto Jetson carrier board**
+![](readme-assets/restore-partition.png)
+
+![](readme-assets/final-nvme.png)
+
+**Install NVMe drive back onto Jetson carrier board**
+
+![](readme-assets/nvme-installed.jpg)
 
 **Resize partition to fill disk (or however large you want it)**
-
 
 ### Install everything from the command line
 
