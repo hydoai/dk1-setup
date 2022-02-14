@@ -12,7 +12,7 @@ TODO
 
 This guide contains two parts. 
 
-**Part 1**: Installing the operating system and changing boot drive. The process for Jetson Nano and Jetson Xavier NX are fundamentally similar, but in Part 1, the files are different.
+**Part 1**: Installing the operating system and changing boot drive. The process for Jetson Nano and Jetson Xavier NX are the same except for the files.
 
 **Part 2**: Installing packages. This part is identical for both Nano and Xavier NX. We provide a pre-made disk image for both Nano and Xavier NX, but this guide will also cover the full command line installation.
 
@@ -61,6 +61,8 @@ Nano microSD | Developer kit | `nano/1-sdcard-devkit-host.sh`
 Jetson modules either have a microSD card slot or internal memory (called eMMC).
 If you buy a developer kit, the module will have a microSD card.
 If you ordered a module separately, it probably has a eMMC.
+  
+The scripts for Leetop A203 automatically patch the official NVIDIA OS image with Leetop's proprietary Device Tree Binary (DTB) files, so that the USB ports on the Leetop A203 work as expected. They don't share those files publicly, so I had to email them for it.
   
 #### Download L4T Driver Package and Sample Root Filesystem from NVIDIA
 
