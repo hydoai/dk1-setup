@@ -83,46 +83,16 @@ This will extract one `.dtb` file insde `nx/Linux_for_Tegra/kernel/dtb` director
 Copy this to the same corresponding directory in the full `Linux for Tegra` directory extracted above, and compress it back with tar.
 
 Go straight to (#nvme-drive-boot)
+  
+#### Xavier files
 
-</p></details>
-
-### Jetson Xavier NX-based
-
-On your notebook or desktop, **clone this repository**:
-```
-git clone https://github.com/hydoai/dk1-setup.git
-```
-
-**Navigate to `flashing\_scripts/nx`**:
-```
-cd flashing_scripts/nx
-```
-
-**If you are using Leetop A203 carrier board, run:**
-```
-./1-a203-host.sh
-```
-
-**Otherwise if you are using the NVIDIA official devkit board, run:**
-```
-./1-official-devkit-host.sh
-```
-
-<details><summary>Click to explanation for the script.</summary>
-<p>
-
-See expalanation in Nano section for more detail.
-
-Here are just the different files:
+Most of the steps are the same with Nano, but with these different files:
 
 + [Download L4T Driver Package for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/jetson_linux_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nx/Jetson_Linux_R32.6.1_aarch64.tbz2))
 + [Download Sample Root Filesystem for NX](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/t186/tegra_linux_sample-root-filesystem_r32.6.1_aarch64.tbz2) ([storage.hydo.ai mirror](https://storage.hydo.ai/nvidia-mirror/jetpack4-6/nx/Tegra_Linux_Sample-Root-Filesystem_R32.6.1_aarch64.tbz2))
-
-
 + [A203 Xavier NX Jetpack4.6 dtb](leetop_kernel_files/jetpack4.6_203nx.rar)
 
-</p>
-</details>
+</p></details>
 
 ### NVME Drive Boot
 
